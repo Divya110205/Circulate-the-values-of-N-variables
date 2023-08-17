@@ -17,7 +17,13 @@ Using the slicing concept rotate the list
 End the program
 
 ## Program:
-
+```
+def circulate():
+    l=eval(input())
+    n=int(input())
+    l=l[n:]+l[:n]
+    print("After circulating the values are:",l)
+```
 ## Output:
 ![Exp 1b](https://github.com/Divya110205/Circulate-the-values-of-N-variables/assets/119404855/27600eb2-4c0a-4368-9bcd-3cd8c4697075)
 
